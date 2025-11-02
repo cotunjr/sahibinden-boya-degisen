@@ -39,7 +39,7 @@ Uzantı doğrudan kaynak kodundan yüklenecek ve etkin hale gelecektir.
 ## Nasıl Kullanılır?
 
 1.  Kurulum tamamlandıktan sonra, sahibinden.com'da bir araba arama sonuçları sayfasına gidin.
-2.  Farenizi listedeki herhangi bir ilanın üzerine getirin.
+2.  Farenizi listedeki herhangi bir ilanın üzerine getirin. **Genellikle, ilanın il/ilçe bilgisi üzerine gelmek daha iyi sonuç verecektir.**
 3.  Birkaç saniye içinde, o araca ait boya ve değişen parça bilgilerini gösteren bir pencere belirecektir.
 
 ---
