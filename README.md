@@ -10,10 +10,27 @@ Bu Chrome uzantısı, sahibinden.com'daki araba arama sonuçları sayfalarında 
 
 ## Kurulum
 
-Bu uzantıyı yüklemek için aşağıdaki adımları izleyin:
+Bu uzantıyı yüklemek için iki farklı yöntem bulunmaktadır:
+
+### Yöntem 1: Paketlenmemiş Uzantı Olarak Yükleme (Önerilen)
+
+Bu yöntem, özellikle geliştirme ve test aşamasında daha sorunsuz çalışır ve Chrome'un `.crx` dosyalarına uyguladığı kısıtlamaları aşar.
 
 1.  Bu GitHub deposunun [Releases](https://github.com/cotunjr/sahibinden-boya-degisen/releases) sayfasına gidin.
-2.  En son sürümdeki `.crx` dosyasını bilgisayarınıza indirin.
+2.  En son sürümdeki `sahibinden.zip` dosyasını bilgisayarınıza indirin ve içeriğini bir klasöre çıkarın (örneğin, `sahibinden-uzanti`).
+3.  Chrome tarayıcınızı açın ve adres çubuğuna `chrome://extensions` yazarak Uzantılar sayfasına gidin.
+4.  Sağ üst köşedeki **Geliştirici modu** anahtarını etkinleştirin.
+5.  Sayfanın sol üst köşesindeki **"Paketlenmemiş öğe yükle"** (veya "Load unpacked") düğmesine tıklayın.
+6.  Açılan pencerede, `.zip` dosyasından çıkardığınız klasörü (örneğin, `sahibinden-uzanti`) seçin ve "Klasör Seç" düğmesine tıklayın.
+
+Uzantı doğrudan kaynak kodundan yüklenecek ve etkin hale gelecektir.
+
+### Yöntem 2: CRX Dosyası ile Yükleme (Bazı Tarayıcılarda Sorun Çıkarabilir)
+
+`.crx` dosyaları, Chrome'un güvenlik politikaları nedeniyle doğrudan yüklenirken veya sürükle-bırak yöntemiyle bile bazen sorun çıkarabilir.
+
+1.  Bu GitHub deposunun [Releases](https://github.com/cotunjr/sahibinden-boya-degisen/releases) sayfasına gidin.
+2.  En son sürümdeki `.crx` dosyasının bağlantısına **sağ tıklayın** ve "Bağlantıyı farklı kaydet..." seçeneğini seçerek bilgisayarınıza indirin.
 3.  Chrome tarayıcınızı açın ve adres çubuğuna `chrome://extensions` yazarak Uzantılar sayfasına gidin.
 4.  Sağ üst köşedeki **Geliştirici modu** anahtarını etkinleştirin.
 5.  İndirdiğiniz `.crx` dosyasını bu sayfaya sürükleyip bırakın.
