@@ -24,3 +24,9 @@ Bu uzantıyı yüklemek için aşağıdaki adımları izleyin:
 1.  Kurulum tamamlandıktan sonra, sahibinden.com'da bir araba arama sonuçları sayfasına gidin.
 2.  Farenizi listedeki herhangi bir ilanın üzerine getirin.
 3.  Birkaç saniye içinde, o araca ait boya ve değişen parça bilgilerini gösteren bir pencere belirecektir.
+
+---
+
+## Sorumluluk Reddi
+
+**Uyarı:** Bu eklenti tamamen Google'ın Gemini yapay zeka modeli kullanılarak yazılmıştır. Eklentinin düzgün çalıştığı doğrulanmış olsa da, kullanımından doğabilecek herhangi bir sorun veya aksaklıkta sorumluluk kabul edilmemektedir.
